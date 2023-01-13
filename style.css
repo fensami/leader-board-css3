@@ -1,5 +1,6 @@
 /* common styles */
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     background: #E5E5E5;
 }
@@ -21,6 +22,56 @@ main{
 }
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* Header style */
+.idea{
+    width: 100%;
+    height: 
+    94px;
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: space-between;
+    background: #562EFF;
+    margin-bottom: 36px;
+}
+/* .idea ul li{
+    display: flex;
+} */
+.logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 210px;
+}
+.logo img{
+    width: 40px;
+    height: 50px;
+    color: white;
+}
+.logo h4{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+.li img{
+    width: 51px;
+    height: 51px;
+}
+.li{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    gap: 36px ;
+    align-items: center;
+    margin-right: 190px;
+}
+
+
+
 /* top player style */
 .section1{
     background-color: white;
@@ -164,6 +215,23 @@ hr{
 
         /* justify-content: center; */
     }
+    .li{
+        width: 100%;
+        margin-right: 0;
+        /* margin: 0; */
+        /* display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        gap: 36px ;
+        align-items: center;
+        margin-right:0px; */
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    
     
   }
 
